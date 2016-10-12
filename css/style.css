@@ -1,0 +1,164 @@
+
+@font-face {
+   font-family: myFirstFont;
+   src: url(../fonts/Fontin-Regular.otf);
+}
+body{
+	font-family: myFirstFont;
+}
+.nav-tabs>li.active>a{
+    color: black;
+    cursor: default;
+    background-color: rgba(4, 24, 169, 0.56);
+    border: 1px dotted #ddd;
+    border-bottom-color: transparent;
+}
+.nav-tabs>li.active>a:hover,
+.nav-tabs>li>a:hover{
+  
+    cursor: default;
+  	background-color: transparent;
+    border: 1px dashed #ddd;
+    text-transform: uppercase;
+    border-bottom-color: blue;
+    font-size: 16px;
+    transition: 0.2s;
+ 	font-weight: bold;  
+}
+.glyphicon-grain{
+	color: green;
+}
+.form-horizontal>.text-center{
+	margin-right:20px;
+}
+.form-horizontal>.form-group{
+	    border-radius: 0px;
+}
+
+.bz{
+	border-radius: 0px;
+}
+.col-lg-6>.form-control{
+	border-radius: 0px;
+	border: 1px dashed #f5025c;
+}
+.col-lg-6>.form-control:hover{
+	border-radius: 0px;
+	border: 2px solid #f5025c;
+	text-transform: uppercase;
+	transition: 0.3s;
+}
+.bz{
+    color: black;
+    cursor: default;
+    background-color: rgba(4, 24, 169, 0.56);
+    border: 1px dotted #ddd;
+    border-bottom-color: transparent;
+}
+.bz:hover{
+	cursor: default;
+  	background-color: transparent;
+    border: 1px dashed #ddd;
+    text-transform: uppercase;
+    border-bottom-color: blue;
+    font-size: 16px;
+    transition: 0.2s;
+ 	font-weight: bold;  
+}
+.bs {
+    min-height: 20px;
+    padding: 40px;
+    margin-bottom: 20px;
+    background-color: rgba(15, 251, 55, 0.18);
+    border: 8px dotted navy;
+    border-radius: 0px;
+    -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.05);
+    box-shadow: inset 0 1px 1px rgba(249, 4, 4, 0.05);
+    margin-top: 70px;
+}
+.bt{
+    display: inline-block;
+    padding: 6px 12px;
+    margin-bottom: 0;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 1.42857143;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    -ms-touch-action: manipulation;
+    touch-action: manipulation;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    background-image: none;
+    border: 2px dotted rgba(202, 184, 184, 0);
+    border-radius: 4px;
+}
+.bt:hover{
+	cursor: default;
+  	background-color: rgba(4, 24, 169, 0.56);
+    border: 1px dotted #ddd;
+    text-transform: uppercase;
+    border-bottom-color: black;
+    transition: 0.2s;
+    font-size: 30px;
+ 	font-weight: bold; 
+}
+.col-sm-8>h4>h5{
+	cursor: default;
+  	background-color: transparent;
+    border: 1px dashed blue;
+    text-transform: uppercase;
+    border-bottom-color: blue;
+    font-size: 12px;
+    transition: 0.2s;
+ 	font-weight: bold; 
+}
+.col-sm-8:hover{
+	cursor: default;
+    color: white;
+  	background-color:  #0000e6;
+    border: 1px solid #ddd;
+    text-transform: uppercase;
+    border-bottom-color: blue;
+    font-size: 48px;
+    transition: 0.2s;
+ 	
+}
+.pager>li>a{
+	color: black;
+    cursor: default;
+    background-color: rgba(4, 24, 169, 0.56);
+    border: 1px dotted #ddd;
+    border-bottom-color: transparent;
+}
+.pager>li>a:hover{
+	cursor: default;
+  	background-color: transparent;
+    border: 1px dashed #ddd;
+    text-transform: uppercase;
+    border-bottom-color: blue;
+    font-size: 16px;
+    transition: 0.2s;
+ 	font-weight: bold;  
+}
+.ikhlas{
+    cursor: default;
+    background-color: transparent;
+    color: black;
+    font-size: 12px;
+    transition: 0.2s;
+    font-weight: bold; 
+}
+.ikhlas:hover{
+    cursor: default;
+   
+    background-color: #0039e6;
+    color: white;
+    text-transform: uppercase;
+    font-size: 28px;
+    transition: 0.2s;
+}
